@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}   
+body{
+    align-items: center;
+
+
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+#container div{
+    background: rgb(107, 107, 203);
+    padding: 30px;
+}
+#container div:nth-child(even){
+    background: rgb(107, 203, 107);
+    padding: 10px;
+}
+.one{
+    grid-column: 1/5;
+}
+.two{
+    grid-row: 2/4;
+}
+.three{
+    grid-column: 2/4;
+}
+.four{
+    
+}
+.five{
+    grid-column: 2/5;
+}
